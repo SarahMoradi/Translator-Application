@@ -66,7 +66,7 @@
 
     <com.google.android.material.textfield.TextInputLayout
         style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
-        android:layout_width="370dp"
+        android:layout_width="362dp"
         android:layout_height="100dp"
         android:layout_marginStart="20dp"
         android:layout_marginTop="20dp"
@@ -78,11 +78,12 @@
 
         <com.google.android.material.textfield.TextInputEditText
             android:id="@+id/idEdtSource"
-            android:layout_width="340dp"
+            android:layout_width="346dp"
             android:layout_height="match_parent"
             android:ems="10"
             android:importantForAutofill="no"
             android:inputType="textImeMultiLine|textMultiLine"
+            android:textDirection="ltr"
             android:textColor="@color/white"
             android:textColorHint="@color/white"
             android:textSize="14sp" />
@@ -115,7 +116,7 @@
         android:layout_width="175dp"
         android:layout_height="59dp"
         android:layout_marginLeft="110dp"
-        android:layout_marginTop="50dp"
+        android:layout_marginTop="30dp"
         android:text="Translate"
         android:textAllCaps="false" />
 
@@ -123,7 +124,7 @@
         android:layout_width="340dp"
         android:layout_height="292dp"
         android:layout_marginLeft="25dp"
-        android:layout_marginTop="60dp"
+        android:layout_marginTop="40dp"
         android:textAlignment="center"
         app:cardCornerRadius="5dp">
 
