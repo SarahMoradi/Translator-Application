@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/HOOSHMAND/AppData/Local/Android/Sdk/platforms/android-31/data/res/layout/simple_expandable_list_item_1.xml" value="0.11503623188405797" />
+        <entry key="..\:/Users/HOOSHMAND/AppData/Local/Android/Sdk/platforms/android-31/data/res/layout/simple_expandable_list_item_2.xml" value="0.11503623188405797" />
+        <entry key="..\:/Users/HOOSHMAND/Desktop/LanguageTranslatorApp/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" value="0.18888888888888888" />
+        <entry key="..\:/Users/HOOSHMAND/Desktop/LanguageTranslatorApp/app/src/main/res/drawable/ic_mic.xml" value="0.18888888888888888" />
+        <entry key="..\:/Users/HOOSHMAND/Desktop/LanguageTranslatorApp/app/src/main/res/drawable/ic_right.xml" value="0.18888888888888888" />
+        <entry key="..\:/Users/HOOSHMAND/Desktop/LanguageTranslatorApp/app/src/main/res/layout/activity_main.xml" value="0.259375" />
+        <entry key="..\:/Users/HOOSHMAND/Desktop/LanguageTranslatorApp/app/src/main/res/layout/spinner_item.xml" value="0.1" />
+        <entry key="..\:/Users/HOOSHMAND/Desktop/Projects/LanguageTranslatorApp/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" value="0.2515625" />
+        <entry key="..\:/Users/HOOSHMAND/Desktop/Projects/LanguageTranslatorApp/app/src/main/res/drawable/ic_launcher_background.xml" value="0.2515625" />
+        <entry key="..\:/Users/HOOSHMAND/Desktop/Projects/LanguageTranslatorApp/app/src/main/res/drawable/ic_mic.xml" value="0.26510416666666664" />
+        <entry key="..\:/Users/HOOSHMAND/Desktop/Projects/LanguageTranslatorApp/app/src/main/res/drawable/ic_right.xml" value="0.26510416666666664" />
+        <entry key="..\:/Users/HOOSHMAND/Desktop/Projects/LanguageTranslatorApp/app/src/main/res/drawable/ic_splash2.xml" value="0.1" />
+        <entry key="..\:/Users/HOOSHMAND/Desktop/Projects/LanguageTranslatorApp/app/src/main/res/layout/activity_main.xml" value="0.12107396149949341" />
+        <entry key="..\:/Users/HOOSHMAND/Desktop/Projects/LanguageTranslatorApp/app/src/main/res/layout/activity_splash.xml" value="0.1" />
+        <entry key="..\:/Users/HOOSHMAND/Desktop/Projects/LanguageTranslatorApp/app/src/main/res/layout/spinner_item.xml" value="0.23541666666666666" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="1.8" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

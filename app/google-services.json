@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "1063690586750",
+    "project_id": "translator-app-5dedd",
+    "storage_bucket": "translator-app-5dedd.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1063690586750:android:3ecf32c859d012b64d662f",
+        "android_client_info": {
+          "package_name": "ir.shariaty.languagetranslatorapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1063690586750-37dqjk7ifpig75deik3hv7t6sr5itdpc.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBPPGCOtZ1vkpabSSn30tAHAq47u-Gc9qc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1063690586750-37dqjk7ifpig75deik3hv7t6sr5itdpc.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
