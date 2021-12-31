@@ -91,24 +91,11 @@
 
     </com.google.android.material.textfield.TextInputLayout>
 
-    <TextView
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:id="@+id/idTVTrnslatedTV"
-        android:gravity="center"
-        android:layout_marginTop="30dp"
-        android:text="Translated Text"
-        android:textAlignment="center"
-        android:textAllCaps="false"
-        android:textColor="@color/purple_200"
-        android:textSize="18sp"
-        />
-
     <ImageView
         android:layout_width="70dp"
         android:layout_height="70dp"
         android:layout_gravity="center"
-        android:layout_marginTop="150dp"
+        android:layout_marginTop="40dp"
         android:src="@drawable/ic_mic"
         app:tint="@color/purple_200"
         android:id="@+id/idIVMic"
@@ -132,6 +119,18 @@
         android:layout_marginEnd="20dp"
         android:text="Translate"
         android:textAllCaps="false"
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/idTVTrnslatedTV"
+        android:gravity="center"
+        android:layout_marginTop="100dp"
+        android:text="Translated Text"
+        android:textAlignment="center"
+        android:textAllCaps="false"
+        android:textColor="@color/purple_200"
+        android:textSize="18sp"
         />
 
 
