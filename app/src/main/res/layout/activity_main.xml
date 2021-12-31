@@ -65,41 +65,39 @@
 
 
     <com.google.android.material.textfield.TextInputLayout
-        android:layout_width="match_parent"
+        style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+        android:layout_width="232dp"
         android:layout_height="100dp"
         android:layout_marginStart="20dp"
-        android:layout_marginEnd="20dp"
         android:layout_marginTop="20dp"
-        style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+        android:layout_marginEnd="20dp"
         android:hint="Source Text"
         android:padding="5dp"
         android:textColorHint="@color/white"
-        app:hintTextColor="@color/white"
-        >
+        app:hintTextColor="@color/white">
 
         <com.google.android.material.textfield.TextInputEditText
             android:id="@+id/idEdtSource"
-            android:layout_width="match_parent"
+            android:layout_width="214dp"
             android:layout_height="match_parent"
             android:ems="10"
             android:importantForAutofill="no"
             android:inputType="textImeMultiLine|textMultiLine"
             android:textColor="@color/white"
             android:textColorHint="@color/white"
-            android:textSize="14sp"
-            />
+            android:textSize="14sp" />
 
     </com.google.android.material.textfield.TextInputLayout>
 
     <ImageView
+        android:id="@+id/idIVMic"
         android:layout_width="70dp"
         android:layout_height="70dp"
         android:layout_gravity="center"
-        android:layout_marginTop="40dp"
+        android:layout_marginTop="-92dp"
+        android:layout_marginLeft="120dp"
         android:src="@drawable/ic_mic"
-        app:tint="@color/purple_200"
-        android:id="@+id/idIVMic"
-        />
+        app:tint="@color/purple_200" />
 
     <TextView
         android:layout_width="match_parent"
@@ -107,7 +105,8 @@
         android:text="Say Something"
         android:textAlignment="center"
         android:textColor="@color/purple_200"
-        android:textSize="15sp"
+        android:layout_marginLeft="120dp"
+        android:textSize="10sp"
         android:layout_gravity="center"
         />
     <com.google.android.material.button.MaterialButton
@@ -120,18 +119,32 @@
         android:text="Translate"
         android:textAllCaps="false"
         />
-    <TextView
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:id="@+id/idTVTrnslatedTV"
-        android:gravity="center"
-        android:layout_marginTop="100dp"
-        android:text="Translated Text"
-        android:textAlignment="center"
-        android:textAllCaps="false"
-        android:textColor="@color/purple_200"
-        android:textSize="18sp"
-        />
+
+    <androidx.cardview.widget.CardView
+        app:cardCornerRadius="20dp"
+        android:layout_width="340dp"
+        android:layout_height="229dp"
+        android:layout_marginLeft="35dp"
+        android:layout_marginTop="20dp"
+        android:textAlignment="center">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            />
+
+        <TextView
+            android:id="@+id/idTVTrnslatedTV"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="100dp"
+            android:gravity="center"
+            android:text="Translated Text"
+            android:textAlignment="center"
+            android:textAllCaps="false"
+            android:textColor="@color/purple_200"
+            android:textSize="18sp" />
+    </androidx.cardview.widget.CardView>
 
 
 </LinearLayout>
